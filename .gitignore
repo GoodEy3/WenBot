@@ -16,3 +16,7 @@ yarn-error.log
 .env
 .env.local
 .DS_Store
+
+# --- Generated Files (CRITICAL: Do not commit generated output) ---
+output/
+*.db

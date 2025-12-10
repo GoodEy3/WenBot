@@ -1,0 +1,11 @@
+certifi==2025.11.12
+charset-normalizer==3.4.4
+colorama==0.4.6
+ffmpeg==1.4
+gallery_dl==1.30.10
+idna==3.11
+lolcat==1.4
+npm==0.1.1
+optional-django==0.1.0
+requests==2.32.5
+urllib3==2.6.1

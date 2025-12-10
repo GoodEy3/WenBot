@@ -17,6 +17,16 @@ yarn-error.log
 .env.local
 .DS_Store
 
-# --- Generated Files (CRITICAL: Do not commit generated output) ---
+# Ignore the output folder generally...
 output/
+
+# ...BUT force-include the SEO folder and HTML files
+!output/seo/
+!output/seo/*.html
+
+# Still ignore the video files inside output (CRITICAL)
+output/shorts/
+*.mp4
+
+# Ignore databases
 *.db

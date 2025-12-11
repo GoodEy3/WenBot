@@ -294,8 +294,8 @@ def main():
     pseo_engine = PSEOGenerator()
 
     # Schedule Jobs
-    scheduler.add_job(video_engine.process_video, 'interval', minutes=1, id='viral_video_gen', replace_existing=True)
-    scheduler.add_job(pseo_engine.build_pages, 'interval', minutes=1, id='seo_regen', replace_existing=True)
+    scheduler.add_job(video_engine.process_video, 'interval', hours=4, id='viral_video_gen', replace_existing=True)
+    scheduler.add_job(pseo_engine.build_pages, 'interval', hours=4, id='seo_regen', replace_existing=True)
 
     try:
         scheduler.start()
